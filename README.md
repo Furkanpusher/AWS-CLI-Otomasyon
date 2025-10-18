@@ -4,11 +4,11 @@ Bu depo, AWS CLI ve Bash kullanarak günlük tekrarlanan DevOps/Cloud mühendisl
 
 🛠️ **Kurulum**
 
-Tüm betiklerinizi sisteminizde kolayca erişilebilir kılmak için aşağıdaki adımları izleyin.
+Tüm scriptlerinizi sisteminizde kolayca erişilebilir kılmak için aşağıdaki adımları izleyin.
 
 **Adım 1: Klasör Oluşturma**
 
-Tüm betikleri merkezi bir konumda toplayın ve yetkilendirin:
+Tüm scriptleri merkezi bir konumda toplayıp yetkilendiricez:
 
 ```bash
 # bash scriptlerinin tutulacağı klasörü oluşturun
@@ -20,7 +20,7 @@ sudo mkdir -p /bin/aws-cli-scripts
 Oluşturduğumuz tüm .sh dosyalarını /bin/aws-cli-scripts klasörüne yerleştirin ve çalıştırma izni verin:
 
 ```bash
-# Tüm betiklere çalıştırma izni verin
+# Tüm awsclı scriptlerine çalıştırma izni verin
 **sudo chmod +x /bin/aws-cli-scripts/*.sh**
 ```
 **Adım 3: Bağımlılıkları Kurma**
@@ -52,12 +52,7 @@ export PATH="/bin/aws-cli-scripts:$PATH"
 source ~/.bashrc
 ```
 
-**BASİT BİR KULLANIM ÖRNEĞİ**
+## **BASİT BİR KULLANIM ÖRNEĞİ**
 ```bash
 healthcheck-instance.sh <instance_id> <bölge_kodu>
 ```
-
-
-
-
-
