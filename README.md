@@ -47,7 +47,7 @@ nano ~/.bashrc
 ```bash
 export PATH="/bin/aws-cli-scripts:$PATH"
 ```
-    3- Terminali yenileyin ki değişikliklerin uygulandığına emin olalım.
+    3-Terminali yenileyin ki değişikliklerin uygulandığına emin olalım.
 ```bash
 source ~/.bashrc
 ```
