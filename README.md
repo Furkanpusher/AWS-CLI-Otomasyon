@@ -1,4 +1,4 @@
-#**AWS DevOps için 5 tane kullanışlı otomasyon**
+# **AWS DevOps için 5 tane kullanışlı otomasyon**
 
 Bu depo, AWS CLI ve Bash kullanarak günlük tekrarlanan DevOps/Cloud mühendisliği görevlerini otomatikleştirmeyi amaçlayan bir araç otomasyon koleksiyonudur. Bu scriptler, güvenlik, port kontrolleri, maliyet optimizasyonu ve envanter yönetimi gibi kritik alanlarda hızlı ve güvenilir işlemler yapmanızı sağlar.
 
@@ -56,6 +56,7 @@ source ~/.bashrc
 ```bash
 healthcheck-instance.sh <instance_id> <bölge_kodu>
 ```
+
 
 
 
