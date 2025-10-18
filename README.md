@@ -41,20 +41,20 @@ Bu, scriptleri bulundukları tam yolu yazmadan, sadece dosya adıyla terminalden
 
     1-Yapılandırma Dosyasını Açın: (Kullandığınız Shell'e göre ~/.bashrc veya ~/.zshrc olabilir)
 ```bash
-        nano ~/.bashrc
+    nano ~/.bashrc
 ```
     2-Aşağıdaki satırı dosya sonuna ekleyin ve kaydedip çıkın
 ```bash
-        export PATH="/bin/aws-cli-scripts:$PATH"
+    export PATH="/bin/aws-cli-scripts:$PATH"
 ```
     3- Terminali yenileyin ki değişikliklerin uygulandığına emin olalım.
 ```bash
-        source ~/.bashrc
+    source ~/.bashrc
 ```
 
 BASİT BİR KULLANIM ÖRNEĞİ
 ```bash
-    healthcheck-instance.sh <instance_id> <bölge_kodu>
+healthcheck-instance.sh <instance_id> <bölge_kodu>
 ```
 
 
